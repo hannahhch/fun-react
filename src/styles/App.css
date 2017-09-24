@@ -1,5 +1,7 @@
 body{
   margin: 0;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 .header, .footer{
   width: 100%;
@@ -8,11 +10,35 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: sans-serif;
-  text-transform: uppercase;
 }
 
 .footer{
   position: fixed;
   bottom: 0;
+}
+
+
+.baselayout{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.displayed-text{
+  margin-top: 50px;
+  font-size: 70px;
+}
+
+.form-control{
+  width: 350px;
+  margin: 0 auto;
+}
+
+.btn{
+  margin-top: 25px;
+  background-color: #B0B1ED;
+}
+
+.btn:hover{
+  cursor: pointer;
+  opacity: .7;
 }

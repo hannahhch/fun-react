@@ -12,13 +12,8 @@ class App extends Component {
     return (
       <div className="App">
         <BaseLayout>
-          <Header />
-          <ParentComponent>
-            <ChildComponent/>
-          </ParentComponent>
-          <Footer />
+          <ParentComponent/>
         </BaseLayout>
-
       </div>
     );
   }
