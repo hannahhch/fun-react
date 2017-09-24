@@ -11,10 +11,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <BaseLayout></BaseLayout>
-        <Header />
-        <ParentComponent />
-        <Footer />
+        <BaseLayout>
+          <Header />
+          <ParentComponent>
+            <ChildComponent/>
+          </ParentComponent>
+          <Footer />
+        </BaseLayout>
+
       </div>
     );
   }

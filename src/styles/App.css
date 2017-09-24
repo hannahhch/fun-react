@@ -1,0 +1,18 @@
+body{
+  margin: 0;
+}
+.header, .footer{
+  width: 100%;
+  background-color: #B0B1ED;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+}
